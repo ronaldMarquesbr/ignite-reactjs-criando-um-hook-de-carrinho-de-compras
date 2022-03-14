@@ -11,7 +11,7 @@ export const ProductList = styled.ul`
     display: flex;
     flex-direction: column;
     background: #fff;
-    border-radius: 4px;
+    border-radius: .5rem;
     padding: 20px;
 
     img {
@@ -24,11 +24,12 @@ export const ProductList = styled.ul`
       line-height: 20px;
       color: #333;
       margin-top: 5px;
+      font-weight: 500;
     }
 
     > span {
       font-size: 21px;
-      font-weight: bold;
+      font-weight: 600;
       margin: 5px 0 20px;
     }
 
@@ -62,7 +63,6 @@ export const ProductList = styled.ul`
       span {
         flex: 1;
         text-align: center;
-        font-weight: bold;
       }
     }
   }

@@ -10,6 +10,7 @@ export const Container = styled.header`
   a {
     transition: opacity 0.2s;
 
+
     &:hover {
       opacity: 0.7;
     }
@@ -26,6 +27,7 @@ export const Cart = styled(Link)`
     margin-right: 10px;
 
     strong {
+      font-weight: 500;
       display: block;
       color: #fff;
     }
